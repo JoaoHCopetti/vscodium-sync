@@ -1,0 +1,18 @@
+[
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.action.moveLinesUpAction"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.action.moveLinesDownAction"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "editor.action.commentLine"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "editor.action.blockComment"
+    }
+]

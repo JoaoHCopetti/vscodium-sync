@@ -1,3 +1,41 @@
 {
-    "syncSettings.additionalFiles": []
+    "syncSettings.additionalFiles": [],
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "editor.lineHeight": 24,
+    "editor.fontSize": 14.5,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Oceanic Next",
+    "window.commandCenter": false,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#18202a",
+        "statusBar.border": "#18202a",
+        "activityBar.background": "#18202a",
+        "statusBar.background": "#18202a",
+        "quickInput.background": "#18202a",
+        "editor.background": "#18202a",
+        "tab.activeBackground": "#18202a",
+        "sideBar.background": "#1c2632",
+        "tab.inactiveBackground": "#1f2a37",
+        "titleBar.inactiveBackground": "#1f2a37",
+        "tab.activeBorder": "#1a2b34",
+        "list.hoverBackground": "#2d3c44",
+        "input.background": "#2d3c44",
+        "button.background": "#3d82d6",
+        "button.hoverBackground": "#3675c1",
+        "activityBarBadge.background": "#3675c1",
+    },
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "none",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "editor.smoothScrolling": false,
+    "editor.formatOnSave": true,
+    "[javascript][typescript][javascriptreact][typescriptreact][vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "eslint.format.enable": true
 }
