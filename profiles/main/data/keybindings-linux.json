@@ -1,5 +1,49 @@
 [
     {
+        "key": "alt+left",
+        "command": "cursorWordPartLeft"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorWordPartRight"
+    },
+    {
+        "key": "alt+shift+left",
+        "command": "cursorWordPartLeftSelect"
+    },
+    {
+        "key": "alt+shift+right",
+        "command": "cursorWordPartRightSelect"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordPartLeft"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "workbench.action.closeEditorsToTheRight"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "workbench.action.closeEditorsToTheLeft"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+backspace",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
         "key": "ctrl+shift+up",
         "command": "editor.action.moveLinesUpAction"
     },
@@ -14,5 +58,9 @@
     {
         "key": "ctrl+shift+;",
         "command": "editor.action.blockComment"
+    },
+    {
+        "key": "f1",
+        "command": "extension.CompileRunInExternalTerminal"
     }
 ]

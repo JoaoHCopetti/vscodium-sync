@@ -1,11 +1,39 @@
-disabled: []
-enabled:
+disabled:
+  - id: AndersEAndersen.html-class-suggestions
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: DEVSENSE.composer-php-vscode
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: docker.docker
+    uuid: aa98a064-0f79-4961-a4b7-78df16d547ee
+  - id: DEVSENSE.phptools-vscode
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: EditorConfig.EditorConfig
-    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: formulahendry.auto-rename-tag
+    uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
+  - id: GraphQL.vscode-graphql
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: GraphQL.vscode-graphql-syntax
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: junstyle.php-cs-fixer
+    uuid: b06b65b2-6ea9-4045-b166-54aa63205261
+  - id: MehediDracula.php-namespace-resolver
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: Vue.volar
+    uuid: 00000000-0000-0000-0000-000000000000
+enabled:
+  - id: adpyke.codesnap
+    uuid: 8c1fc960-44b1-45e8-89b5-85f982fdaf27
+  - id: danielpinto8zz6.c-cpp-compile-run
+    uuid: f3b153f9-13ba-4992-9f90-1779d968df49
+  - id: llvm-vs-code-extensions.vscode-clangd
+    uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mhartington.oceanic-next
     uuid: null
+  - id: notskm.clang-tidy
+    uuid: 241edb4b-f6a7-47b9-a1f8-7ef1f2086449
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: PKief.material-product-icons
@@ -14,7 +42,7 @@ enabled:
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: streetsidesoftware.code-spell-checker-portuguese-brazilian
     uuid: a669e675-9cb2-48a8-983d-33a1c4ed10ef
-  - id: Vue.volar
-    uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
+  - id: vadimcn.vscode-lldb
+    uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

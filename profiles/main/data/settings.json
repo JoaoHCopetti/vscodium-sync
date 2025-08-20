@@ -1,15 +1,4 @@
 {
-    "syncSettings.additionalFiles": [],
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.productIconTheme": "material-product-icons",
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "classic",
-    "editor.fontFamily": "Hack Nerd Font Mono",
-    "editor.lineHeight": 24,
-    "editor.fontSize": 14.5,
-    "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Oceanic Next",
-    "window.commandCenter": false,
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#18202a",
         "statusBar.border": "#18202a",
@@ -28,6 +17,38 @@
         "button.hoverBackground": "#3675c1",
         "activityBarBadge.background": "#3675c1",
     },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "meta.tag.other.unrecognized.html.derivative entity.name.tag",
+                ],
+                "settings": {
+                    "foreground": "#fac863"
+                }
+            },
+            {
+                "scope": [
+                    "storage.modifier.async.js",
+                    "storage.modifier.final.php",
+                    "storage.modifier.php"
+                ],
+                "settings": {
+                    "foreground": "#c594c5",
+                }
+            }
+        ]
+    },
+    "syncSettings.additionalFiles": [],
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "editor.lineHeight": 25,
+    "editor.fontSize": 15,
+    "workbench.colorTheme": "Oceanic Next",
+    "window.commandCenter": false,
     "workbench.tree.indent": 12,
     "workbench.tree.renderIndentGuides": "none",
     "explorer.compactFolders": false,
@@ -37,5 +58,55 @@
     "[javascript][typescript][javascriptreact][typescriptreact][vue]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "eslint.format.enable": true
+    "php.executablePath": "/usr/bin/php83",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.list.smoothScrolling": false,
+    "php.inlayHints.parameters.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "php.inlayHints.insertOnDoubleClick": false,
+    "php.inlayHints.parameters.byReference": false,
+    "php.inlayHints.types.lambdaParameter": false,
+    "php.inlayHints.types.return": false,
+    "php.problems.exclude": {
+        "**/*": [
+            "php_to_string_interpolation"
+        ]
+    },
+    "cSpell.language": "en,pt_BR",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.promptForLocalFileProtocolHandling": false,
+    "window.customTitleBarVisibility": "never",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+    "eslint.format.enable": true,
+    "eslint.probe": [
+        "astro",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "mdx",
+        "vue",
+        "markdown",
+        "json",
+        "jsonc",
+        "jsx"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "telemetry.feedback.enabled": false,
+    "git.blame.statusBarItem.enabled": false,
+    "clang-tidy.fixOnSave": true,
+    "c-cpp-compile-run.c-compiler": "clang",
+    "c-cpp-compile-run.cpp-compiler": "clang++",
+    "c-cpp-compile-run.should-show-notifications": false,
 }
