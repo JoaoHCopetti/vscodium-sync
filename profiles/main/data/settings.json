@@ -109,4 +109,5 @@
     "c-cpp-compile-run.c-compiler": "clang",
     "c-cpp-compile-run.cpp-compiler": "clang++",
     "c-cpp-compile-run.should-show-notifications": false,
+    "git.openRepositoryInParentFolders": "never",
 }
